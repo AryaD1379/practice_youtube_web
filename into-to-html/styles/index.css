@@ -1,0 +1,32 @@
+.text:hover{
+    color: brown;
+}
+
+.cart{
+    background-color: rgb(255, 238, 0);
+    border: none;
+    padding-top: 10px;
+    border-radius: 10px;
+    transition: background-color 0.15s, opacity 0.15s;
+}
+.cart:hover{
+    background-color: rgb(255, 200, 0);
+}
+.cart:active{
+    opacity: 0.8;
+}
+
+.Buy{
+    background-color: rgb(255, 174, 0);
+    border: none;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    transition: opacity 0.15s;
+}
+.Buy:hover{
+ opacity: 0.8;
+}
+.Buy:active{
+    opacity: 0.4;
+}
